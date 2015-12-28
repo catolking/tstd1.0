@@ -1,0 +1,100 @@
+
+
+所有 动画 事先调入缓存。
+
+
+对话的显示，要分两部分，一个是人物头像的显示，一个是对话内容的显示。
+头像的显示，我用下面的类来实现。
+index是人物的头像序号，subindex是人物的表情，因为在游戏里一个人物，通常有多种表情，所以，我们要为每个人物准备多个头像，并且能分别调用它们。
+
+
+菜单
+
+MenuController
+MenuView
+MenuModel
+
+菜单按钮类	
+//移动端的时候，为了提高效率，将地图隐藏  
+
+
+接下来为了给背包中添加物品，我们需要先定义物品，在script/initialization文件夹下添加props.json文件，先简单的来定义三个物品。
+
+
+{  
+"props1":{  
+    "Index":1,  
+    "Name":"包子",  
+    "Type":"Recovery",  
+    "Max":99,  
+    "Icon":1,  
+    "Hp":30,  
+    "Mp":0,  
+    "Force":0,  
+    "Intelligence":0,  
+    "Command":0,  
+    "Agile":0,  
+    "Luck":0,  
+    "Introduction":"普通的馒头，可以恢复一点HP。"  
+    },  
+"props2":{  
+    "Index":2,  
+    "Name":"天书残卷",  
+    "Type":"Special",  
+    "Max":1,  
+    "Icon":2,  
+    "Introduction":"特殊物品之天书残卷，暂时没有详细介绍。"  
+    },  
+"props3":{  
+    "Index":3,  
+    "Name":"倚天剑",  
+    "Type":"Weaponry",  
+    "Max":1,  
+    "Icon":3,  
+    "Introduction":"倚天剑，介绍略。"  
+    }  
+}  
+
+
+
+恢复物品
+
+[javascript] view plaincopy在CODE上查看代码片派生到我的代码片
+function PropsRecovery(data){  
+    var self = this;  
+    self.index = data.Index;  
+    self.name = data.Name;  
+    self.type = data.Type;  
+    self.icon = data.Icon;  
+    self.max = data.Max;  
+    self.count = 1;  
+    self.data = data;  
+}  
+武器装备
+[javascript] view plaincopy在CODE上查看代码片派生到我的代码片
+function PropsWeaponry(data){  
+    var self = this;  
+    self.index = data.Index;  
+    self.name = data.Name;  
+    self.type = data.Type;  
+    self.icon = data.Icon;  
+    self.max = data.Max;  
+    self.count = 1;  
+    self.data = data;  
+}  
+特殊物品
+[javascript] view plaincopy在CODE上查看代码片派生到我的代码片
+function PropsSpecial(data){  
+    var self = this;  
+    self.index = data.Index;  
+    self.name = data.Name;  
+    self.type = data.Type;  
+    self.icon = data.Icon;  
+    self.max = data.Max;  
+    self.count = 1;  
+    self.data = data;  
+}  
+
+
+
+我们再继续给LRPGObject类添加两个函数，分别是添加物品和删除物品，操作很简单，就是往propsList里添加和删除元素。

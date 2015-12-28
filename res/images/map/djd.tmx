@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="21" height="22" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="city_inside" tilewidth="32" tileheight="32">
+  <image source="C:/Users/catol/AppData/Roaming/Cocos/CocosStore/oga1146/LPC_city_inside/city_inside.png" width="768" height="512"/>
+ </tileset>
+ <tileset firstgid="385" name="preview0" tilewidth="32" tileheight="32">
+  <image source="C:/Users/catol/AppData/Roaming/Cocos/CocosStore/oga1146/LPC_city_inside/preview0.png" width="672" height="704"/>
+ </tileset>
+ <layer name="块层 1" width="21" height="22" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJwN01OCHQYAAMCX3di2bdu22tgogiJmG9u2bdu2bds252OOML1CBAK96UNf+tGfAQxkEIMZwlCGMZwRjGQUoxnDWMYxnglMZBKTmcJUpjGdGcxkFrOZw1zmMZ8FLGQRi1nCUpaxnBWsZBWrWcNa1rGeDWxkE5vZwla2sZ0d7GQXu9nDXvaxnwMc5BCHOcJRjnGcE5zkFKc5w1nOcZ4LXOQSl7nCVa5xnRvc5Ba3ucNd7nGfBzzkEY95wlOe8ZwXvOQVr3nDW97xng985BOf+cJXvvGdHwSCAoEQBBFMSEIRmjCEJRzhiUBEIhGZKEQlGtGJQUxiEZs4xCUe8UlAQhKRmCQkJRnJSUFKUpGaNKQlHenJQEYykZksZCUb2clBTnKRmzzkJR/5KUBBClGYIhSlGMUpQUlKUZoylKUc5alARSpRmSpU5Rd+pRrVqUFNalGbOtSlHvVpQEMa0ZgmNOU3fucP/qQZzWlBS/7ib/7hX1rRmja0pR3t6UBHOtGZLnTlP/6nG93pQU960Zs+9KUf/RnAQAYxmCEMZRjDGcFIRjGaMYxlHOOZwEQmMZkpTGUa05nBTGYxmznMZR7zWcBCFrGYJSxlGctZwUpWsZo1rGUd69nARjaxmS1sZRvb2cFOdrGbPexlH/s5wEEOcZgjHOUYxznBSU5xmjOc5RznucBFLnGZK1zlGte5wU1ucZs73OUe93nAQx7xmCc85RnPecFLXvGaN7zlHe/5wEc+8ZkvfOUb3/lBINh/gggmJKEITRjCEo7wRCAikYhMFKISjejEICaxiE0c4hKP+CQgIYlITBKSkozkpCAlqUhNGtKSjvRkICOZyEwWspKN7OQgJ7nITR7yko/8FKAghShMEYpSjOKUoCSlKE0ZylKO8lSgIpWozE/Zsu42
+  </data>
+ </layer>
+ <imagelayer name="图像图层 1" x="-8" y="5">
+  <image source="C:/Users/catol/AppData/Roaming/Cocos/CocosStore/oga1146/LPC_city_inside/preview0.png"/>
+ </imagelayer>
+ <layer name="块层 2" width="21" height="22" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFwwEwATEzGmah0EwpLGIyFJpphEXMhEyzkilxyCgYBVQCSVTEo2BoAABJighY
+  </data>
+ </layer>
+</map>

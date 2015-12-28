@@ -1,0 +1,200 @@
+<Solution>
+  <PropertyGroup Name="tstd" Version="2.3.3.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Project Name="MainScene.csd" Type="Scene" />
+        <Image Name="HelloWorld.png" />
+        <Project Name="FightingLayer.csd" Type="Layer" />
+        <Project Name="HeroLayer.csd" Type="Layer" />
+        <Folder Name="images">
+          <Folder Name="heroWalk">
+            <PlistImageFolder Image="hero.png" PListFile="hero.plist" Name=".hero_PList.Dir">
+              <PlistImageFile Name="hero_01.png" Key="hero_01.png" />
+              <PlistImageFile Name="hero_02.png" Key="hero_02.png" />
+              <PlistImageFile Name="hero_03.png" Key="hero_03.png" />
+              <PlistImageFile Name="hero_04.png" Key="hero_04.png" />
+              <PlistImageFile Name="hero_05.png" Key="hero_05.png" />
+              <PlistImageFile Name="hero_06.png" Key="hero_06.png" />
+              <PlistImageFile Name="hero_07.png" Key="hero_07.png" />
+              <PlistImageFile Name="hero_08.png" Key="hero_08.png" />
+              <PlistImageFile Name="hero_09.png" Key="hero_09.png" />
+              <PlistImageFile Name="hero_10.png" Key="hero_10.png" />
+              <PlistImageFile Name="hero_11.png" Key="hero_11.png" />
+              <PlistImageFile Name="hero_12.png" Key="hero_12.png" />
+              <PlistImageFile Name="hero_13.png" Key="hero_13.png" />
+              <PlistImageFile Name="hero_14.png" Key="hero_14.png" />
+              <PlistImageFile Name="hero_15.png" Key="hero_15.png" />
+              <PlistImageFile Name="hero_16.png" Key="hero_16.png" />
+              <PlistImageFile Name="hero_17.png" Key="hero_17.png" />
+              <PlistImageFile Name="hero_18.png" Key="hero_18.png" />
+              <PlistImageFile Name="hero_19.png" Key="hero_19.png" />
+              <PlistImageFile Name="hero_20.png" Key="hero_20.png" />
+              <PlistImageFile Name="hero_21.png" Key="hero_21.png" />
+              <PlistImageFile Name="hero_22.png" Key="hero_22.png" />
+              <PlistImageFile Name="hero_23.png" Key="hero_23.png" />
+              <PlistImageFile Name="hero_24.png" Key="hero_24.png" />
+              <PlistImageFile Name="hero_25.png" Key="hero_25.png" />
+              <PlistImageFile Name="hero_26.png" Key="hero_26.png" />
+              <PlistImageFile Name="hero_27.png" Key="hero_27.png" />
+              <PlistImageFile Name="hero_28.png" Key="hero_28.png" />
+              <PlistImageFile Name="hero_29.png" Key="hero_29.png" />
+              <PlistImageFile Name="hero_30.png" Key="hero_30.png" />
+              <PlistImageFile Name="hero_31.png" Key="hero_31.png" />
+              <PlistImageFile Name="hero_32.png" Key="hero_32.png" />
+              <PlistImageFile Name="hero_33.png" Key="hero_33.png" />
+              <PlistImageFile Name="hero_34.png" Key="hero_34.png" />
+              <PlistImageFile Name="hero_35.png" Key="hero_35.png" />
+              <PlistImageFile Name="hero_36.png" Key="hero_36.png" />
+              <PlistImageFile Name="hero_37.png" Key="hero_37.png" />
+              <PlistImageFile Name="hero_38.png" Key="hero_38.png" />
+              <PlistImageFile Name="hero_39.png" Key="hero_39.png" />
+              <PlistImageFile Name="hero_40.png" Key="hero_40.png" />
+              <PlistImageFile Name="hero_41.png" Key="hero_41.png" />
+              <PlistImageFile Name="hero_42.png" Key="hero_42.png" />
+              <PlistImageFile Name="hero_43.png" Key="hero_43.png" />
+              <PlistImageFile Name="hero_44.png" Key="hero_44.png" />
+              <PlistImageFile Name="hero_45.png" Key="hero_45.png" />
+              <PlistImageFile Name="hero_46.png" Key="hero_46.png" />
+              <PlistImageFile Name="hero_47.png" Key="hero_47.png" />
+              <PlistImageFile Name="hero_48.png" Key="hero_48.png" />
+              <PlistImageFile Name="hero_49.png" Key="hero_49.png" />
+              <PlistImageFile Name="hero_50.png" Key="hero_50.png" />
+              <PlistImageFile Name="hero_51.png" Key="hero_51.png" />
+              <PlistImageFile Name="hero_52.png" Key="hero_52.png" />
+              <PlistImageFile Name="hero_53.png" Key="hero_53.png" />
+              <PlistImageFile Name="hero_54.png" Key="hero_54.png" />
+              <PlistImageFile Name="hero_55.png" Key="hero_55.png" />
+              <PlistImageFile Name="hero_56.png" Key="hero_56.png" />
+              <PlistImageFile Name="hero_57.png" Key="hero_57.png" />
+              <PlistImageFile Name="hero_58.png" Key="hero_58.png" />
+              <PlistImageFile Name="hero_59.png" Key="hero_59.png" />
+              <PlistImageFile Name="hero_60.png" Key="hero_60.png" />
+              <PlistImageFile Name="hero_61.png" Key="hero_61.png" />
+              <PlistImageFile Name="hero_62.png" Key="hero_62.png" />
+              <PlistImageFile Name="hero_63.png" Key="hero_63.png" />
+              <PlistImageFile Name="hero_64.png" Key="hero_64.png" />
+            </PlistImageFolder>
+          </Folder>
+          <Folder Name="map">
+            <TmxFile Name="wqd.tmx" />
+            <Image Name="npc.png" />
+            <TmxFile Name="gongdian.tmx" />
+          </Folder>
+          <Folder Name="button">
+            <Image Name="plus.png" />
+            <Image Name="1-1.png" />
+            <Image Name="item.png" />
+          </Folder>
+          <Folder Name="bg">
+            <Image Name="chat.png" />
+            <Image Name="subBg.png" />
+            <Image Name="nil.png" />
+            <Image Name="lightBg.png" />
+          </Folder>
+          <Folder Name="common">
+            <File Name="tmp.jpeg" />
+            <Image Name="100.png" />
+            <Image Name="101.png" />
+            <Image Name="1033.png" />
+            <Image Name="1034.png" />
+            <Image Name="1035.png" />
+            <Image Name="1036.png" />
+            <Image Name="1037.png" />
+            <Image Name="1038.png" />
+            <Image Name="1059.png" />
+            <Image Name="1060.png" />
+            <Image Name="111.png" />
+            <Image Name="140.png" />
+            <Image Name="146.png" />
+            <Image Name="148.png" />
+            <Image Name="149.png" />
+            <Image Name="150.png" />
+            <Image Name="151.png" />
+            <Image Name="152.png" />
+            <Image Name="153.png" />
+            <Image Name="154.png" />
+            <Image Name="155.png" />
+            <Image Name="161.png" />
+            <Image Name="198.png" />
+            <Image Name="233.png" />
+            <Image Name="234.png" />
+            <Image Name="235.png" />
+            <Image Name="258.png" />
+            <Image Name="324.png" />
+            <Image Name="329.png" />
+            <Image Name="363.png" />
+            <Image Name="364.png" />
+            <Image Name="365.png" />
+            <Image Name="367.png" />
+            <Image Name="375.png" />
+            <Image Name="48.png" />
+            <Image Name="50.png" />
+            <Image Name="51.png" />
+            <Image Name="55.png" />
+            <Image Name="62.png" />
+            <Image Name="63.png" />
+            <Image Name="67.png" />
+            <Image Name="69.png" />
+            <Image Name="70.png" />
+            <Image Name="73.png" />
+            <Image Name="74.png" />
+            <Image Name="75.png" />
+            <Image Name="98.png" />
+            <Image Name="99.png" />
+            <Image Name="h001.png" />
+            <Image Name="items_bg.png" />
+            <Image Name="tmp.png" />
+            <Image Name="btn_close.png" />
+            <Image Name="68.png" />
+            <Image Name="61.png" />
+            <Image Name="377.png" />
+            <Image Name="itemsTabButton.png" />
+            <Image Name="itemBg.png" />
+            <Image Name="269.png" />
+            <Image Name="fenge.png" />
+            <Image Name="redBtn1.png" />
+            <Image Name="redBtn2.png" />
+            <Image Name="bagLabel.png" />
+            <Image Name="closebtn1.png" />
+            <Image Name="closebtn2.png" />
+            <Image Name="blackBar.png" />
+            <Image Name="hpBar.png" />
+            <Image Name="itemsTabButton2.png" />
+            <Image Name="itemBg2.png" />
+            <Image Name="1.png" />
+            <Image Name="2.png" />
+            <Image Name="3.png" />
+            <Image Name="4.png" />
+            <Image Name="gold.png" />
+            <Image Name="ArrowYellow.png" />
+            <Image Name="HPBar1.png" />
+            <Image Name="HPBar2.png" />
+            <Image Name="ArrowRed.png" />
+          </Folder>
+          <Image Name="217.png" />
+          <Image Name="50.png" />
+          <Image Name="198.png" />
+          <Folder Name="npc">
+            <Image Name="npc1.png" />
+            <Image Name="npc2.png" />
+          </Folder>
+          <Folder Name="animation">
+            <Image Name="lei_01.png" />
+            <Image Name="lei_02.png" />
+            <Image Name="lei_03.png" />
+            <Image Name="lei_04.png" />
+          </Folder>
+        </Folder>
+        <Project Name="BagLayer.csd" Type="Layer" />
+        <Project Name="BagItemNode.csd" Type="Node" />
+        <Project Name="FightItemNode.csd" Type="Node" />
+        <Folder Name="font">
+          <TTF Name="hyxl.ttf" />
+        </Folder>
+        <Project Name="HeroInfoLayer.csd" Type="Layer" />
+        <Project Name="HeroInfoNode.csd" Type="Node" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>
